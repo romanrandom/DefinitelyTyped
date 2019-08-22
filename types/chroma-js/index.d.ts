@@ -215,7 +215,7 @@ declare namespace chroma {
         /**
          * Get and set the color opacity.
          */
-        alpha(a?: number): Color;
+        alpha(a?: number): number;
 
         darken(f?: number): Color;
 
